@@ -1,13 +1,13 @@
 {
     "@context": "https://www.w3.org/ns/did/v1",
-    id: "did:web:github.com:andreasf6:diddoc-registry-test:blob:main:test",
-    verificationMethod: [
+    "id": "did:web:github.com:andreasf6:diddoc-registry-test:blob:main:test",
+    "verificationMethod": [
       {
-        id: "#https://kv-nhd-vp-core-dev.vault.azure.net/keys/cbe1eb3e-3f07-4ee7-9ac9-8ee1dffb8940",
-        type: "EcdsaSecp256k1VerificationKey2019",
-        controller:
+        "id": "#https://kv-nhd-vp-core-dev.vault.azure.net/keys/cbe1eb3e-3f07-4ee7-9ac9-8ee1dffb8940",
+        "type": "EcdsaSecp256k1VerificationKey2019",
+        "controller":
           "did:web:github.com:andreasf6:diddoc-registry-test:blob:main:test",
-        publicKeyJwk: {
+        "publicKeyJwk": {
           "kty": "EC",
           "crv": "secp256k1",
           "x": "qP_y2Q0CpnQUv6fm35Uwk9Ue8nHizgHhxM8-DbVUe40=",
@@ -15,7 +15,8 @@
         }
       }
     ],
-    authentication: [
+    "authentication": [
       "#https://kv-nhd-vp-core-dev.vault.azure.net/keys/cbe1eb3e-3f07-4ee7-9ac9-8ee1dffb8940"
     ]
-}
+  }
+ 
