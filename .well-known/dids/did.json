@@ -3,18 +3,19 @@
   "id": "did:web:github.com:andreasf6:diddoc-registry-test:blob:main:test",
   "verificationMethod": [
     {
-      "id": "#https://kv-nhd-vp-core-dev.vault.azure.net/keys/cbe1eb3e-3f07-4ee7-9ac9-8ee1dffb8940",
+      "id": "123",
       "type": "EcdsaSecp256k1VerificationKey2019",
       "controller": "did:web:github.com:andreasf6:diddoc-registry-test:blob:main:test",
       "publicKeyJwk": {
         "kty": "EC",
         "crv": "secp256k1",
-        "x": "qP_y2Q0CpnQUv6fm35Uwk9Ue8nHizgHhxM8-DbVUe40=",
-        "y": "tPQThYWaAWq4U2X3mowX2w73l6jVlzRM7YHeJGPzrsc="
+        "kid": "123",
+        "x": "b1rzOUl9cMWD5_tWEVgonOv1u0wNKIvSXwOjbUAM880",
+        "y": "SeZM_5SdJhhu7JRGexD4xyxXKE06nEg2UCILRBmnwug"
       }
     }
   ],
   "authentication": [
-    "#https://kv-nhd-vp-core-dev.vault.azure.net/keys/cbe1eb3e-3f07-4ee7-9ac9-8ee1dffb8940"
+    "123"
   ]
 }
